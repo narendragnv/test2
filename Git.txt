@@ -1,0 +1,90 @@
+Dev ops
+https://www.youtube.com/watch?v=JHoy3lDZOfY
+https://www.youtube.com/watch?v=xuB1Id2Wxak
+
+
+>https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
+https://www.qaautomation.co.in/2019/06/devops-automation-tool.html?fbclid=IwAR1-k8UR2bwAJGMuvvLX_B9aHk_wpsm71UdHLT8e65sXKcEC8799pM8GML4
+
+GIT:
+https://www.qaautomation.co.in/2019/06/difference-between-git-and-github.html?fbclid=IwAR1zpHpKZ95CTDelW7WyjssIVggy60WFlrMdVQiRUi-BaLOIvRmSfQq65nw
+https://www.edureka.co/blog/interview-questions/git-interview-questions/
+https://career.guru99.com/top-40-interview-questions-on-git/
+https://www.codementor.io/alexershov/11-painful-git-interview-questions-and-answers-you-will-cry-on-lybbrqhvs
+https://www.janbasktraining.com/blog/git-interview-questions/
+https://svrtechnologies.com/devops-interview-questions/top-50-devops-git-interview-questions-and-answers-pdf/
+https://tekslate.com/git-interview-questions
+https://www.toptal.com/git/interview-questions
+https://medium.com/@gauravtaywade/15-interview-questions-about-git-that-every-developer-should-know-bcaf30409647
+https://www.theserverside.com/video/Tough-sample-Git-and-GitHub-interview-questions-and-answers
+https://www.algrim.co/posts/161-git-interview-questions
+
+https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c
+
+
+create a new repository on the command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/narendragnv/test.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/narendragnv/test.git
+git push -u origin master
+
+Command	Description
+git init	Initialize a local Git repository
+git clone ssh://git@github.com/[username]/[repository-name].git Create a local copy of a remote repository
+
+
+Command	Description
+git status	Check status
+git add [file-name.txt]	Add a file to the staging area
+git add -A	Add all new and changed files to the staging area
+git commit -m "[commit message]"	Commit changes
+git rm -r [file-name.txt]	Remove a file (or folder)
+
+Branching & Merging:
+
+
+git branch	List branches (the asterisk denotes the current branch)
+git branch -a	List all branches (local and remote)
+git branch [branch name]	Create a new branch
+git branch -d [branch name]	Delete a branch
+git push origin --delete [branch name]	Delete a remote branch
+
+git checkout -b [branch name]	Create a new branch and switch to it
+git checkout -b [branch name] origin/[branch name]	Clone a remote branch and switch to it
+git branch -m [old branch name] [new branch name]	Rename a local branch
+git checkout [branch name]	Switch to a branch
+git checkout -	Switch to the branch last checked out
+git checkout -- [file-name.txt]	Discard changes to a file
+
+git merge [branch name]	Merge a branch into the active branch
+git merge [source branch] [target branch]	Merge a branch into a target branch
+git stash	Stash changes in a dirty working directory
+git stash clear	Remove all stashed entries
+
+Sharing & Updating Projects
+Command	Description
+
+git push origin [branch name]	Push a branch to your remote repository
+git push -u origin [branch name]	Push changes to remote repository (and remember the branch)
+git push	Push changes to remote repository (remembered branch)
+git push origin --delete [branch name]	Delete a remote branch
+git pull	Update local repository to the newest commit
+git pull origin [branch name]	Pull changes from remote repository
+
+git remote add origin ssh://git@github.com/[username]/[repository-name].git	Add a remote repository
+git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	Set a repository's origin branch to SSH
+
+
+Inspection & Comparison
+
+Command	Description
+git log	View changes
+git log --summary	View changes (detailed)
+git diff [source branch] [target branch]

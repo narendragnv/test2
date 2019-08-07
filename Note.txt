@@ -1,0 +1,22 @@
+Dev ops
+
+>https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
+https://www.qaautomation.co.in/2019/06/devops-automation-tool.html?fbclid=IwAR1-k8UR2bwAJGMuvvLX_B9aHk_wpsm71UdHLT8e65sXKcEC8799pM8GML4
+
+GIT:
+https://www.qaautomation.co.in/2019/06/difference-between-git-and-github.html?fbclid=IwAR1zpHpKZ95CTDelW7WyjssIVggy60WFlrMdVQiRUi-BaLOIvRmSfQq65nw
+https://www.edureka.co/blog/interview-questions/git-interview-questions/
+https://career.guru99.com/top-40-interview-questions-on-git/
+https://www.codementor.io/alexershov/11-painful-git-interview-questions-and-answers-you-will-cry-on-lybbrqhvs
+https://www.janbasktraining.com/blog/git-interview-questions/
+https://svrtechnologies.com/devops-interview-questions/top-50-devops-git-interview-questions-and-answers-pdf/
+https://tekslate.com/git-interview-questions
+https://www.toptal.com/git/interview-questions
+https://medium.com/@gauravtaywade/15-interview-questions-about-git-that-every-developer-should-know-bcaf30409647
+https://www.theserverside.com/video/Tough-sample-Git-and-GitHub-interview-questions-and-answers
+https://www.algrim.co/posts/161-git-interview-questions
+
+
+
+Bug 29646838 : Metric collection is not working for LogFileMonitoring when Pivilege monitoring is applied
+Bug 27531271 : 13.2 Access host log files with Privileged Credential fails Can't locate emd_com
